@@ -1,0 +1,25 @@
+{
+    "data" : {
+        "semester" : 4,
+        "subjects" : {
+            "Operating System" : {
+                "syllabus" : "https://u.pcloud.link/publink/show?code=XZ69nn5ZS5spVQoTi0ykO3s8OGxS6kmTeytV"
+            },
+            "Data Structures & Algorithms" : {
+                "syllabus" : "https://u.pcloud.link/publink/show?code=XZN9nn5ZUkkJLROJMNk2rFI00ya9M7sisg7X"
+            },
+            "Instrumentation" : {
+                "syllabus" : "https://u.pcloud.link/publink/show?code=XZo9nn5Z0daIbSesQcukEBQ7G5CJ7RXkOASy"
+            },
+            "Numerical Methods" : {
+                "syllabus" : "https://u.pcloud.link/publink/show?code=XZkMnn5Zizra547W9bfKI9trD2MR9BannnXy"
+            },
+            "Data Communication" : {
+                "syllabus" : "https://u.pcloud.link/publink/show?code=XZ0Mnn5ZgD6PVV3ngnX03iC9V6AAhy2mVQ37"
+            },
+            "Electromagnetics" : {
+                "syllabus" : "https://u.pcloud.link/publink/show?code=XZG9nn5Zztf5FkWxvBHtIxD9rlwUy5g7YGok"
+            }
+        }
+    }
+}
