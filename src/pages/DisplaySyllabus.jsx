@@ -29,7 +29,6 @@ export default function DisplaySyllabus() {
           </div>
 
           <div className='space-y-8'>
-            {/* Chrome/Chromium Browsers */}
             <div className='group p-6 rounded-xl bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 border border-neutral-700 hover:border-emerald-500/50 transition-all duration-300'>
               <div className='flex items-center gap-4 mb-4'>
                 <div className='p-2 rounded-lg bg-neutral-800 border border-neutral-700 group-hover:border-emerald-500/30 transition-colors'>
@@ -50,7 +49,6 @@ export default function DisplaySyllabus() {
               </div>
             </div>
 
-            {/* Firefox */}
             <div className='group p-6 rounded-xl bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 border border-neutral-700 hover:border-emerald-500/50 transition-all duration-300'>
               <div className='flex items-center gap-4 mb-4'>
                 <div className='p-2 rounded-lg bg-neutral-800 border border-neutral-700 group-hover:border-emerald-500/30 transition-colors'>
