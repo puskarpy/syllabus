@@ -26,7 +26,6 @@ export default function SemCard({s, id, link}) {
                     </div>
                   </div>
 
-                  {/* Semester Title */}
                   <div>
                     <h3 className="text-sm sm:text-lg text-neutral-500 group-hover:text-emerald-400 transition-colors duration-300">
                       Semester {id}
@@ -39,7 +38,6 @@ export default function SemCard({s, id, link}) {
 
                 </div>
 
-                {/* Corner decoration */}
                 <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-emerald-500/5 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
     </div>
   )

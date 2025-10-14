@@ -6,7 +6,6 @@ export default function Home() {
     <div className="min-h-screen">
       <div className="p-8">
         <div className="flex flex-col items-center gap-24">
-          {/* Hero Section */}
           <div className="flex flex-col items-center max-w-3xl">
             <div className="inline-block mb-6 px-4 py-2 bg-emerald-500/10 border border-emerald-500/30 rounded-full">
               <span className="text-emerald-400 text-sm font-medium">Engineering Syllabuses</span>
@@ -19,27 +18,24 @@ export default function Home() {
             </p>
             <Link 
               to={'/semester'} 
-              className="mt-6 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 px-8 py-4 rounded-lg text-base font-semibold shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1"
+              className="mt-6 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 px-8 py-4 rounded-md text-base font-semibold shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1"
             >
               Browse Syllabus
             </Link>
           </div>
 
-          {/* Divider */}
           <div className="w-full max-w-4xl h-[1px] bg-gradient-to-r from-transparent via-gray-700 to-transparent"></div>
         </div>
 
-        {/* Departments Section */}
         <div className="mt-16 flex flex-col items-center gap-12">
           <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Departments
           </h2>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-5xl w-full">
-            {/* Computer Engineering Card */}
             <Link 
               to={'/semester'} 
-              className="relative rounded-2xl overflow-hidden group border border-gray-800 hover:border-emerald-500/50 transition-all duration-300 shadow-xl hover:shadow-emerald-500/20"
+              className="relative rounded-md overflow-hidden group border border-gray-800 hover:border-emerald-500/50 transition-all duration-300 shadow-xl hover:shadow-emerald-500/20"
             >
               <div className='transform transition-transform duration-500 group-hover:scale-110'>
                 <img src="/computer.jpg" alt="Computer Engineering" className="w-full h-64 object-cover" />
@@ -59,8 +55,7 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* Civil Engineering Card */}
-            <div className="relative rounded-2xl overflow-hidden group border border-gray-800 hover:border-gray-600 transition-all duration-300 shadow-xl cursor-not-allowed opacity-75">
+            <div className="relative rounded-md overflow-hidden group border border-gray-800 hover:border-gray-600 transition-all duration-300 shadow-xl cursor-not-allowed opacity-75">
               <div className='transform transition-transform duration-500 group-hover:scale-110'>
                 <img src="/computer.jpg" alt="Civil Engineering" className="w-full h-64 object-cover" />
               </div>

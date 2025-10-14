@@ -11,7 +11,7 @@ export default function Header() {
         <div className='hidden sm:flex gap-4 text-sm tracking-wide'>
             <Link to={'/'}>Home</Link>
             <Link to={'/semester'} >Syllabus</Link>
-            <Link to={'/past-questions'}>Past Questions</Link>
+            <Link to={'/error'}>Past Questions</Link>
             <Link to={'/about'}>About</Link>
         </div>
     </header>

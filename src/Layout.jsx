@@ -9,6 +9,7 @@ export default function Layout() {
     <main className='mt-14'>
         <Outlet/>
     </main>
+      <div className="w-full mx-auto max-w-4xl h-[1px] bg-gradient-to-r from-transparent mt-4 mb-4 via-gray-700 to-transparent"></div>
     <Footer/>
     </>
   )
