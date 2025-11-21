@@ -8,7 +8,7 @@ export default function Error() {
         
         <div className="space-y-4 text-gray-300 text-base sm:text-lg leading-relaxed">
           <p>
-            Either this page doesn't exist or is under construction.
+            Either this page doesn't exist or is under developement.
           </p>
         </div>
       </div>
