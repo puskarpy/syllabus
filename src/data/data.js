@@ -1,6 +1,7 @@
 export const data = [
     {
         semester : 1,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/firstsem.png",
         subjects : [
              {
                 name : "Engineering Mathematics (I)",
@@ -37,6 +38,7 @@ export const data = [
     },
     {
         semester : 2,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem2/sem2.png",
         subjects : [
              {
                 name : "Engineering Math (II)",
@@ -72,6 +74,7 @@ export const data = [
     },
     {
         semester : 3,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem3/sem3.png",
         subjects : [
             {
                 name : "Microprocessor",
@@ -107,6 +110,7 @@ export const data = [
     },
     {
         semester : 4,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem4/sem4.png",
         subjects : [ 
              {
                 name : "Operating System",
@@ -142,101 +146,105 @@ export const data = [
     },
     {
         semester : 5,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/sem5.png",
         subjects : [
              {
                 name : "Probability & Statistics",
                 linkName : "probability-&-statistics",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/ENSH%20203%20PROBABILITY%20AND%20STATISTICS%20Syllabus%20_%20Course%20Structure.pdf"
+                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/probability.pdf"
             },
              {
                 name : "Database Management System",
                 linkName : "dbms",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/ENGE%20303%20GEOSPATIAL%20DATABASE%20MANAGEMENT%20SYSTEM%20Syllabus%20_%20Course%20Structure.pdf"
+                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/dbms.pdf"
             },
              {
                 name : "Web Programming",
                 linkName : "web-programming",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/"
+                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/web.pdf"
             },
              {
                 name : "Computer Architecture",
                 linkName : "computer-architecture",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/ENEX%20253%20COMPUTER%20ORGANIZATION%20AND%20ARCHITECTURE%20Syllabus%20_%20Course%20Structure.pdf"
+                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/computerarchitecture.pdf"
             },
              {
                 name : "Computer Network",
                 linkName : "computer-network",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/"
+                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/computernetwork.pdf"
             },
              {
                 name : "Elective I",
-                linkName : "probrbility-&-statistics",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem5/"
+                linkName : "elective-i",
+                syllabus : ""
             },
         ]
     },
     {
         semester : 6,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem6/sem6.png",
         subjects : [
              {
                 name : "Engineering Economics",
                 linkName : "engineering-economics",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
              {
                 name : "Artificial Intelligence",
                 linkName : "artificial-intelligence",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
              {
                 name : "Software Engineering",
                 linkName : "software-engineering",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
              {
                 name : "Simulation & Modelling",
                 linkName : "simulation-&-modelling",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
              {
                 name : "Elective II",
                 linkName : "elective-ii",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
         ]
     },
     {
         semester : 7,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem7/sem7.png",
         subjects : [
                 {
                 name : "Digital Signal Analysis & Processing",
                 linkName : "signal-analysis",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
                 {
                 name : "Distributed & Cloud Computing",
                 linkName : "cloud-computing",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
                 {
                 name : "ICT Project Management",
                 linkName : "ict-project-management",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
                 {
                 name : "Energy, Environment & Social Engineering",
                 linkName : "energy-env-social-engineering",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
         ]
     },
     {
         semester : 8,
+        curriculumImage: "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem8/sem8.png",
         subjects : [
              {
                 name : "Network & Cyber Security",
                 linkName : "network-&-cyber-security",
-                syllabus : "https://cdn.jsdelivr.net/gh/puskarpy/pdf-storage@main/syllabus/Computer%20Engineering/sem1/"
+                syllabus : ""
             },
         ]
     },
